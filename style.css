@@ -28,3 +28,111 @@ body{
 
     height:100vh;
 }
+/* ---------- Navigation ---------- */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 8%;
+
+    background:rgba(15,17,21,.75);
+    backdrop-filter:blur(12px);
+}
+
+.logo{
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:3px;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:28px;
+}
+
+nav a{
+    color:var(--muted);
+    text-decoration:none;
+    transition:.25s;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.login-btn,
+.primary-btn{
+
+    border:none;
+    cursor:pointer;
+
+    padding:12px 24px;
+
+    border-radius:999px;
+
+    background:var(--accent);
+
+    color:black;
+
+    font-weight:600;
+}
+
+/* ---------- Hero ---------- */
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.tag{
+
+    color:var(--accent);
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    margin-bottom:24px;
+}
+
+.subtitle{
+
+    max-width:700px;
+
+    color:var(--muted);
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+}
